@@ -8,6 +8,8 @@ import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
@@ -19,10 +21,7 @@ import java.nio.file.StandardCopyOption;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.text.*;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
-import java.util.UUID;
+import java.util.*;
 
 import static com.github.webdriverextensions.Bot.takeFullPageScreenshot;
 import static com.github.webdriverextensions.Bot.takeScreenshot;
@@ -31,6 +30,12 @@ public class Utils {
 
     private static final String DEFAULT_DATE_PATTERN = "yyyy-MM-dd";
     private static final String DEFAULT_DATETIME_PATTERN = "yyyy-MM-dd_HH-mm-ss";
+
+    private static final String ENABLE_USER_HOMEDIR = "1";
+
+    private static final String PROPERTIES_PATH = "./src/main/resources/config.properties";
+    private static final String PROPERTY_ENABLE_USERHOMEDIR = "fileExamples.download.enable.userHomeDir";
+    private static final String PROPERTY_DOWNLOAD_PATH = "fileExamples.download.path";
 
     /**
      * This function creates a DecimalFormat instance configured to parse / format --> Strings / Numbers
@@ -162,10 +167,43 @@ public class Utils {
     }
 
     private static String buildCompleteFileName(String suffix) {
-        String path = System.getProperty("user.home") + "/Downloads";
+        String path = getConfiguredPath();
         String lUUID = String.format("%040d", new BigInteger(UUID.randomUUID().toString().replace("-", ""), 16));
         String filename = String.format("%d_%s_%s", System.currentTimeMillis(), lUUID, suffix);
 
         return String.format("%s/%s", path, filename);
+    }
+
+    private static String getConfiguredPath() {
+        Properties properties = null;
+
+        try {
+            properties = loadProperties();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        String path = "";
+        if (properties != null && ENABLE_USER_HOMEDIR.equals(properties.getProperty(PROPERTY_ENABLE_USERHOMEDIR))) {
+            //if user_home_dir property is enabled --> We are going to get the path from properties file
+            path = properties.getProperty(PROPERTY_DOWNLOAD_PATH);
+        } else {
+            //Default path construction
+            path = System.getProperty("user.home") + "/Downloads";
+        }
+
+        return path;
+    }
+
+    /***
+     * Function to load the properties file.
+     *
+     * @throws FileNotFoundException When properties file can not be found or read
+     */
+    private static Properties loadProperties() throws IOException {
+        InputStream input = new FileInputStream(PROPERTIES_PATH);
+        Properties prop = new Properties();
+        prop.load(input);
+        return prop;
     }
 }
