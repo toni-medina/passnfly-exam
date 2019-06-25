@@ -20,8 +20,4 @@ public class BookingSearchComponent extends WebComponent {
     protected WebElement checkout;
 
 
-
-
-
-
 }

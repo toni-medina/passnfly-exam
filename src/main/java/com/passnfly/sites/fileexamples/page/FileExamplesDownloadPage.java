@@ -13,8 +13,6 @@ import java.io.IOException;
 import java.util.List;
 
 import static com.github.webdriverextensions.Bot.assertCurrentUrlStartsWith;
-import static com.github.webdriverextensions.Bot.click;
-import static com.passnfly.utilities.BotUtils.clickOn;
 
 public class FileExamplesDownloadPage extends WebPage {
 
@@ -43,10 +41,10 @@ public class FileExamplesDownloadPage extends WebPage {
     }
 
     public void downloadFiles() {
-        buttons.forEach( button -> {
+        buttons.forEach(button -> {
             String strUrl = button.getAttribute("href");
             try {
-                log.info(String.format("File '%s' downloaded",Utils.downloadFileFromUrl(strUrl)));
+                log.info(String.format("File '%s' downloaded", Utils.downloadFileFromUrl(strUrl)));
             } catch (IOException e) {
                 //TODO:
                 e.printStackTrace();

@@ -19,7 +19,10 @@ import java.nio.file.StandardCopyOption;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.text.*;
-import java.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Random;
+import java.util.UUID;
 
 import static com.github.webdriverextensions.Bot.takeFullPageScreenshot;
 import static com.github.webdriverextensions.Bot.takeScreenshot;
@@ -63,21 +66,21 @@ public class Utils {
         return createDecimalFormat().format(num);
     }
 
-    public static String formatDate (Calendar calendar) {
+    public static String formatDate(Calendar calendar) {
         return formatDate(calendar.getTime(), DEFAULT_DATE_PATTERN);
     }
 
-    public static String formatDate (Date date) {
+    public static String formatDate(Date date) {
         return formatDate(date, DEFAULT_DATE_PATTERN);
     }
 
-    public static String formatDate (Date date, String pattern) {
+    public static String formatDate(Date date, String pattern) {
         DateFormat dateFormat = new SimpleDateFormat(pattern);
         String strDate = dateFormat.format(date);
         return strDate;
     }
 
-    public static String formatDateTime (Date date) {
+    public static String formatDateTime(Date date) {
         return formatDate(date, DEFAULT_DATETIME_PATTERN);
     }
 

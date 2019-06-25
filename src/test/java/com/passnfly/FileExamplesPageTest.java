@@ -36,7 +36,6 @@ public class FileExamplesPageTest extends FileExamplesSiteTest {
         site().fileExamplesDownloadPage.downloadFiles();
 
 
-
         captureScreenshot(driver());
 
     }

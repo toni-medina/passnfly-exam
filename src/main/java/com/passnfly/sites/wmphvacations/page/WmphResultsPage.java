@@ -129,7 +129,7 @@ public class WmphResultsPage extends WebPage {
         log.info(searchResultsMsg.getText());
         log.info(String.format("*************** Printando los %s primeros ***************", numResults));
 
-        IntStream.rangeClosed(1, numResults).forEach( i -> {
+        IntStream.rangeClosed(1, numResults).forEach(i -> {
             printTheResult(i);
         });
 
@@ -147,7 +147,7 @@ public class WmphResultsPage extends WebPage {
         String xpathReviews = xpathBase + "//div[starts-with(@class, 'bui-review-score__text')]";
         String xpathScore = xpathBase + "//div[starts-with(@class, 'bui-review-score__badge')]";
         String xpathLocation = xpathBase + "//div[contains(@class, 'address')]//a";
-        String xpathImageUrl  = xpathBase + "//div[@class='sr_item_photo']//img";
+        String xpathImageUrl = xpathBase + "//div[@class='sr_item_photo']//img";
 
         WebElement nombre = driver().findElement(By.xpath(xpathNombre));
         WebElement precio = driver().findElement(By.xpath(xpathPrecio));

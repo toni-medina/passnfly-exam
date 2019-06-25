@@ -1,10 +1,7 @@
 package com.passnfly.sites.fileexamples.page;
 
-import com.github.webdriverextensions.Bot;
 import com.github.webdriverextensions.WebPage;
-import com.passnfly.sites.booking.BookingSite;
 import com.passnfly.sites.fileexamples.FileExamplesSite;
-import com.passnfly.utilities.BotUtils;
 import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -13,12 +10,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
-import java.util.stream.IntStream;
 
 import static com.github.webdriverextensions.Bot.assertCurrentUrlContains;
 import static com.github.webdriverextensions.Bot.driver;
-import static com.passnfly.utilities.BotUtils.*;
-import static com.passnfly.utilities.Utils.captureScreenshot;
+import static com.passnfly.utilities.BotUtils.click;
+import static com.passnfly.utilities.BotUtils.elementExists;
 
 public class FileExamplesSampleDocumentsPage extends WebPage {
 

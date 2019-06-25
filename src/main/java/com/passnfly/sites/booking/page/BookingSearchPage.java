@@ -113,7 +113,7 @@ public class BookingSearchPage extends WebPage {
         String css = String.format("select[data-group-child-age='%d']", index);
         WebElement select = WebDriverExtensionsContext.getDriver().findElement(createCssSelector(css));
         Select dropDown = new Select(select);
-        dropDown.selectByIndex(randomIntBetween(0,17));
+        dropDown.selectByIndex(randomIntBetween(0, 17));
         log.info(String.format("Dropdown for child %d selected!", index));
 
     }

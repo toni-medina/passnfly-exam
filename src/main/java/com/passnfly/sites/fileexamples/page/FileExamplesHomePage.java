@@ -2,7 +2,6 @@ package com.passnfly.sites.fileexamples.page;
 
 import com.github.webdriverextensions.WebPage;
 import com.passnfly.sites.fileexamples.FileExamplesSite;
-import com.passnfly.utilities.BotUtils;
 import lombok.Getter;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,9 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 
 import static com.github.webdriverextensions.Bot.assertCurrentUrlStartsWith;
-import static com.github.webdriverextensions.Bot.driver;
 import static com.passnfly.utilities.BotUtils.clickOn;
-import static com.passnfly.utilities.Utils.captureScreenshot;
 
 public class FileExamplesHomePage extends WebPage {
 

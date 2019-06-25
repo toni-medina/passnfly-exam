@@ -2,8 +2,8 @@ package com.passnfly.sites.fileexamples;
 
 import com.github.webdriverextensions.WebSite;
 import com.passnfly.sites.fileexamples.page.FileExamplesDownloadPage;
-import com.passnfly.sites.fileexamples.page.FileExamplesSampleDocumentsPage;
 import com.passnfly.sites.fileexamples.page.FileExamplesHomePage;
+import com.passnfly.sites.fileexamples.page.FileExamplesSampleDocumentsPage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
