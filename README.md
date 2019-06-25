@@ -1,6 +1,6 @@
-# passnfly-exam
+# Startup-exam
 
-This is an `IntelliJ` project built to implement the `Passnfly` exam.
+This is an `IntelliJ` project built to implement the `Startup` exam.
 
 The exam has 3 questions and this project covers two of them.
 
