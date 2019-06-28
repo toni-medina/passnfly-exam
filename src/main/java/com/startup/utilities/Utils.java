@@ -100,12 +100,12 @@ public class Utils {
     }
 
     public static void captureScreenshot(WebDriver driver) {
-        String filename = String.format("/Users/Toni/Proyectos/startup/tmp/screenshot-%s.png", formatDateTime(new Date()));
+        String filename = String.format("%s/screenshot-%s.png", getConfiguredPath(), formatDateTime(new Date()));
         takeScreenshot(filename);
     }
 
     public static void captureFullPageScreenshot(WebDriver driver) {
-        String filename = String.format("/Users/Toni/Proyectos/startup/tmp/screenshot-%s.png", formatDateTime(new Date()));
+        String filename = String.format("%s/screenshot-%s.png", getConfiguredPath(), formatDateTime(new Date()));
         takeFullPageScreenshot(filename);
     }
 

@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a8a325-6cec-465e-aace-49deddd4c5fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/booking/BookingSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/booking/BookingSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/booking/BookingSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/booking/BookingSiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/booking/component/BookingSearchComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/booking/component/BookingSearchComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/booking/data/BookingAccommodationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/booking/data/BookingAccommodationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/booking/page/BookingResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/booking/page/BookingResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/booking/page/BookingSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/booking/page/BookingSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/fileexamples/FileExamplesSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/FileExamplesSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/fileexamples/FileExamplesSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/FileExamplesSiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/fileexamples/page/FileExamplesDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/page/FileExamplesDownloadPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/fileexamples/page/FileExamplesHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/page/FileExamplesHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/fileexamples/page/FileExamplesSampleDocumentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/page/FileExamplesSampleDocumentsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/wmphvacations/WmphSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/wmphvacations/WmphSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/wmphvacations/WmphSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/wmphvacations/WmphSiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/wmphvacations/capabilities/WmphCapabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/wmphvacations/capabilities/WmphCapabilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/wmphvacations/page/WmphResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/wmphvacations/page/WmphResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/sites/wmphvacations/page/WmphSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/sites/wmphvacations/page/WmphSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/utilities/BotUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/utilities/BotUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/passnfly/utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/utilities/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/passnfly/BookingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/startup/BookingPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/passnfly/FileExamplesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/startup/FileExamplesPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/passnfly/WmphPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/startup/WmphPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/startup/utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/startup/utilities/Utils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,6 +18,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/startup/FileExamplesPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/page/FileExamplesDownloadPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -48,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/FileExamplesSiteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/utilities/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="194" column="20" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="20" />
+            <state relative-caret-position="155">
+              <caret line="107" column="113" selection-start-line="107" selection-start-column="113" selection-end-line="107" selection-end-column="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/startup/WmphPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,6 +197,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/startup/FileExamplesPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/startup/utilities/Utils.java" />
       </list>
     </option>
   </component>
@@ -233,7 +225,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -358,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileExamplesPageTest.downloadFilesTest">
+  <component name="RunManager" selected="JUnit.BookingPageTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -467,10 +459,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26655897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26655897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24861" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -479,7 +471,7 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.3298647" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4838449" weight="0.33722627" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.33868614" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.33868614" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.47577444" weight="0.45255473" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -722,16 +714,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/passnfly/sites/fileexamples/capabilities/FileExamplesCapabilities.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/startup/FileExamplesPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/page/FileExamplesHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -743,16 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="46" column="98" selection-start-line="46" selection-start-column="98" selection-end-line="46" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/FileExamplesSiteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/utilities/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="194" column="20" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -841,8 +803,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/startup/WmphPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/startup/FileExamplesPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="107" column="113" selection-start-line="107" selection-start-column="113" selection-end-line="107" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/startup/sites/fileexamples/FileExamplesSiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
